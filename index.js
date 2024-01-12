@@ -13,6 +13,5 @@ function result() {
   try {
     display.value = eval(display.value);
   } catch {
-    display.value = defaultValue;
   }
 }
